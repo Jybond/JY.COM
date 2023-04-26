@@ -1,0 +1,44 @@
+.header
+{
+  position: fixed;
+  display: flex;
+  justify-content:space-between;
+  background-color: white;
+  left:0;
+  right:0; 
+  height: 50px;
+  z-index: 100;
+
+}
+
+.name
+{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+
+.headerimgbox
+{
+  display: flex;
+  justify-content:end;
+  width: auto;
+  align-items: center;
+  flex: 1;
+  margin-right: 10px;
+} 
+.plusbox
+{
+height: 60px;
+padding-bottom: 2px;
+margin-right: 5px;
+}
+.plus
+{
+   height: 60px;
+}
+.burger
+{height: 33px;}
